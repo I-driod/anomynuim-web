@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* Enable browser default color scheme handling if needed, but we control via class */
+  scroll-behavior: smooth;
+  /* Dark mode default colors if not using Tailwind classes on body */
+  color: #242424;
+  background-color: #ffffff;
+}
+
+/* Optional: strict dark mode handling via media query if not using class strategy, 
+   but since we are using class strategy, we let Tailwind handle it via 'dark:' classes 
+   checking the 'dark' class on HTML. 
+   However, we can set base styles for the dark class here.
+*/
+:root.dark {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
