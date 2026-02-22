@@ -1,0 +1,83 @@
+{
+    "nav": {
+        "title": "Anonymium AI",
+        "download": "下载",
+        "support": "支持",
+        "privacy": "隐私政策"
+    },
+    "hero": {
+        "title": "私有 AI，在您的设备上本地运行",
+        "subtitle": "体验大语言模型的力量，无需牺牲您的隐私。没有云端，没有追踪，只有您和您的 AI。",
+        "cta": "开始使用",
+        "learn_more": "了解更多"
+    },
+    "about": {
+        "title": "为什么选择 Anonymium？",
+        "description": "Anonymium AI 将大语言模型的力量直接带到您的设备上。通过利用优化的端侧推理，我们确保您的数据永远不会离开您的手机。"
+    },
+    "features": {
+        "title": "强大功能",
+        "offline": "100% 离线",
+        "offline_desc": "无需互联网连接。随时随地聊天。",
+        "privacy": "隐私至上",
+        "privacy_desc": "您的数据留在您的设备上。我们需要录任何内容。",
+        "speed": "闪电般快速",
+        "speed_desc": "针对移动硬件进行优化，响应迅速。",
+        "web_connect": "Web Connect (Premium)",
+        "web_connect_desc": "Connect your phone to your browser via hotspot or WiFi for offline AI power on your PC."
+    },
+    "models": {
+        "title": "支持的模型",
+        "subtitle": "从 3 种针对您设备优化的强大的开源模型中进行选择。"
+    },
+    "privacy_section": {
+        "title": "您的隐私是神圣的",
+        "description": "与基于云的 AI 助手不同，Anonymium AI 完全在您的设备上运行。我们不收集您的数据，不追踪您的对话，也不需要账户。",
+        "list": [
+            "无数据收集",
+            "无需账户",
+            "无需互联网",
+            "100% 端侧处理"
+        ]
+    },
+    "footer": {
+        "rights": "© 2026 Anonymium AI. 保留所有权利。",
+        "tagline": "您的隐私，您的 AI。"
+    },
+    "support": {
+        "title": "联系支持",
+        "description": "需要帮助或有任何问题？我们的支持团队随时为您服务。",
+        "email_label": "发送邮件至"
+    },
+    "privacy_policy": {
+        "title": "隐私政策",
+        "intro_title": "介绍",
+        "intro_text": "欢迎来到 Anonymium AI。我们致力于保护您的隐私并确保您完全掌控您的数据。我们的理念很简单：您的数据属于您，未经您的明确同意，绝不应离开您的设备。",
+        "collection_title": "数据收集",
+        "collection_text": "我们不使用我们的应用程序收集、存储或传输任何个人数据。Anonymium AI 完全在您的设备上本地运行。",
+        "processing_title": "端侧处理",
+        "processing_text": "所有 AI 处理，包括文本生成和语音识别，都直接在您的设备硬件上进行。",
+        "third_party_title": "第三方服务",
+        "third_party_text": "由于该应用程序离线运行，并且不连接外部服务器以实现核心功能，因此我们不与第三方服务共享数据。",
+        "changes_title": "本政策的更改",
+        "changes_text": "我们可能会不时更新我们的隐私政策。",
+        "contact_title": "联系我们",
+        "contact_text": "如果您对本隐私政策有任何疑问，请联系我们："
+    },
+    "how_it_works": {
+        "title": "工作原理",
+        "step1_title": "下载应用",
+        "step1_desc": "在 iOS 上免费提供",
+        "step2_title": "选择你的模型",
+        "step2_desc": "选择适合你设备的 AI 模型",
+        "step3_title": "开始交谈",
+        "step3_desc": "使用语音或文本与你的 AI 助手聊天",
+        "step4_title": "保持私密",
+        "step4_desc": "一切都在你的设备上进行，始终如一"
+    },
+    "download_cta": {
+        "title": "准备好体验私密 AI 了吗？",
+        "subtitle": "立即下载 Anonymium AI，掌控你的对话。",
+        "ios": "下载 iOS 版"
+    }
+}

@@ -1,7 +1,12 @@
 import React from 'react';
 import { ShieldCheck } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Privacy = () => {
+    const { t } = useTranslation();
+
+    const privacyList = t('privacy_section.list', { returnObjects: true }) || [];
+
     return (
         <section className="py-24 bg-gray-50 dark:bg-gradient-to-b dark:from-zinc-900 dark:to-black transition-colors duration-300">
             <div className="container mx-auto px-4">
@@ -10,18 +15,15 @@ const Privacy = () => {
                         <div className="w-16 h-16 bg-green-100 dark:bg-green-500/10 rounded-2xl flex items-center justify-center mb-8">
                             <ShieldCheck className="w-8 h-8 text-green-600 dark:text-green-400" />
                         </div>
-                        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white transition-colors">Your Privacy is Sacred</h2>
+                        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white transition-colors">
+                            {t('privacy_section.title')}
+                        </h2>
                         <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 leading-relaxed transition-colors">
-                            Unlike cloud-based AI assistants, Anonymium AI runs entirely on your device. We don't collect your data, track your conversations, or require an account. What you say stays with you—always.
+                            {t('privacy_section.description')}
                         </p>
 
                         <div className="space-y-4">
-                            {[
-                                "No Data Collection",
-                                "No Account Required",
-                                "No Internet Needed",
-                                "100% On-Device Processing"
-                            ].map((item, idx) => (
+                            {privacyList.map((item, idx) => (
                                 <div key={idx} className="flex items-center gap-3">
                                     <div className="w-6 h-6 rounded-full bg-green-100 dark:bg-green-500/20 flex items-center justify-center transition-colors">
                                         <span className="text-green-600 dark:text-green-400 text-sm">✓</span>

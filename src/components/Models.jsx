@@ -1,50 +1,39 @@
 import React from 'react';
-
-const models = [
-    {
-        name: "DeepSeek R1 Distill Qwen 1.5B",
-        tag: "Advanced Reasoning",
-        desc: "State-of-the-art reasoning capabilities with chain-of-thought processing. Perfect for complex problem-solving and detailed explanations.",
-        stats: { memory: "~1.25 GB", context: "2,048 tokens" },
-        bestFor: "Complex reasoning, step-by-step problem solving"
-    },
-    {
-        name: "Qwen 2.5 1.5B Instruct",
-        tag: "Balanced Performance",
-        desc: "Perfect balance of performance and efficiency for everyday tasks. Great all-around model for general conversations.",
-        stats: { memory: "~1.3 GB", context: "4,096 tokens" },
-        bestFor: "General conversations, everyday tasks"
-    },
-    {
-        name: "Gemma 3 1B",
-        tag: "Google AI",
-        desc: "Google's efficient model optimized for mobile devices. Reliable performance with excellent response quality.",
-        stats: { memory: "~1.1 GB", context: "4,096 tokens" },
-        bestFor: "Quick responses, general assistance"
-    },
-    {
-        name: "Llama 3.2 1B Instruct",
-        tag: "Meta AI - Extended Context",
-        desc: "Meta's powerful model with extended context window. Handles longer conversations and remembers more context.",
-        stats: { memory: "~1.1 GB", context: "8,193 tokens" },
-        bestFor: "Long conversations, detailed discussions"
-    },
-    {
-        name: "Qwen 2.5 0.5B Instruct",
-        tag: "Ultra Light",
-        desc: "Smallest model for older devices with limited resources. Still powerful while being incredibly efficient.",
-        stats: { memory: "~500 MB", context: "4,096 tokens" },
-        bestFor: "Older devices, maximum battery life"
-    }
-];
+import { useTranslation } from 'react-i18next';
 
 const Models = () => {
+    const { t } = useTranslation();
+
+    const models = [
+        {
+            name: "DeepSeek R1 Distill Qwen 1.5B",
+            tag: t('models.tag_reasoning', "Advanced Reasoning"),
+            desc: t('models.desc_deepseek', "State-of-the-art reasoning capabilities."),
+            stats: { memory: "~1.25 GB", context: "2,048 tokens" },
+            bestFor: t('models.best_reasoning', "Complex reasoning")
+        },
+        {
+            name: "Qwen 2.5 1.5B Instruct",
+            tag: t('models.tag_balanced', "Balanced Performance"),
+            desc: t('models.desc_qwen', "Perfect balance of performance and efficiency."),
+            stats: { memory: "~1.3 GB", context: "4,096 tokens" },
+            bestFor: t('models.best_general', "General conversations")
+        },
+        {
+            name: "Qwen 2.5 0.5B Instruct",
+            tag: t('models.tag_light', "Ultra Light"),
+            desc: t('models.desc_qwen_light', "Smallest model for older devices."),
+            stats: { memory: "~500 MB", context: "4,096 tokens" },
+            bestFor: t('models.best_battery', "Older devices")
+        }
+    ];
+
     return (
         <section className="py-24 bg-white dark:bg-black relative overflow-hidden transition-colors duration-300">
             <div className="container mx-auto px-4 relative z-10">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white transition-colors">Choose Your Intelligence</h2>
-                    <p className="text-xl text-gray-600 dark:text-gray-400 transition-colors">Five powerful models packed into one app.</p>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white transition-colors">{t('models.title')}</h2>
+                    <p className="text-xl text-gray-600 dark:text-gray-400 transition-colors">{t('models.subtitle')}</p>
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

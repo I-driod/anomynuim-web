@@ -1,23 +1,82 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import { Smartphone, Download, CheckCircle2 } from 'lucide-react';
+import appleIcon from '../assets/apple_icon.png';
+import playStoreIcon from '../assets/play_store_icon.png';
 
 const DownloadCta = () => {
-    return (
-        <section id="download" className="py-24 bg-gray-50 dark:bg-gradient-to-t dark:from-zinc-900 dark:to-black text-center transition-colors duration-300">
-            <div className="container mx-auto px-4">
-                <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Experience Private AI?</h2>
-                <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-                    Download Anonymium AI today and take control of your conversations.
-                </p>
+    const { t } = useTranslation();
 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <button className="flex items-center gap-3 bg-white text-black px-8 py-3.5 rounded-full font-semibold hover:bg-gray-100 transition-colors w-full sm:w-auto justify-center">
-                        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.5 1.3 0 2.55.87 3.35.87.8 0 2.31-1.09 3.8-1.09 1.3.01 2.94.62 3.83 1.93-3.69 1.83-3.06 6.3 0 7.85zm-2.07-12c.56-1.03 1.54-1.84 2.89-1.3-.92 2.9-3.5 2.06-2.89 1.3z" /></svg>
-                        Download for iOS
-                    </button>
-                    <button className="flex items-center gap-3 bg-white/10 text-white border border-white/20 px-8 py-3.5 rounded-full font-semibold hover:bg-white/20 transition-colors backdrop-blur-sm w-full sm:w-auto justify-center">
-                        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L3.84,2.15L6.05,2.66Z" /></svg>
-                        Download for Android
-                    </button>
+    return (
+        <section id="download" className="relative py-32 overflow-hidden bg-white dark:bg-black transition-colors duration-300">
+            {/* Background elements */}
+            <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl h-[500px] bg-blue-600/5 dark:bg-blue-600/10 blur-[120px] rounded-full" />
+                <div className="absolute top-[20%] left-[10%] w-64 h-64 bg-purple-500/5 dark:bg-purple-500/10 blur-[80px] rounded-full" />
+                <div className="absolute bottom-[20%] right-[10%] w-64 h-64 bg-emerald-500/5 dark:bg-emerald-500/10 blur-[80px] rounded-full" />
+            </div>
+
+            <div className="container mx-auto px-4 relative z-10">
+                <div className="max-w-5xl mx-auto">
+                    <div className="bg-gray-50/50 dark:bg-white/5 backdrop-blur-xl border border-gray-200 dark:border-white/10 rounded-[3rem] p-8 md:p-16 text-center transform hover:scale-[1.01] transition-all duration-500 shadow-2xl dark:shadow-none">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-600/10 border border-blue-600/20 mb-8">
+                            <Download className="w-4 h-4 text-blue-600 dark:text-blue-400" />
+                            <span className="text-sm font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wider">Get the App</span>
+                        </div>
+
+                        <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight text-gray-900 dark:text-white leading-tight">
+                            {t('download_cta.title', 'Ready to Experience Private AI?')}
+                        </h2>
+
+                        <p className="text-xl text-gray-500 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+                            {t('download_cta.subtitle', 'Download Anonymium AI today and take control of your conversations. Your data, your rules.')}
+                        </p>
+
+                        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                            {/* App Store Button */}
+                            <a
+                                href="https://apps.apple.com/ng/app/anonymium-ai/id6757937417"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="group relative flex items-center gap-4 bg-black dark:bg-white text-white dark:text-black px-10 py-4 rounded-2xl font-bold transition-all hover:translate-y-[-4px] hover:shadow-2xl dark:hover:shadow-white/10 w-full sm:w-auto overflow-hidden"
+                            >
+                                <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500" />
+                                <img src={appleIcon} alt="Apple Store" className="w-7 h-7 relative z-10 invert dark:invert-0" />
+                                <div className="flex flex-col items-start relative z-10">
+                                    <span className="text-[10px] uppercase tracking-tighter opacity-70">Download on the</span>
+                                    <span className="text-lg">App Store</span>
+                                </div>
+                            </a>
+
+                            {/* Play Store Button (Placeholder) */}
+                            <div className="group relative flex items-center gap-4 bg-gray-100 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-gray-400 dark:text-gray-500 px-10 py-4 rounded-2xl font-bold w-full sm:w-auto cursor-not-allowed">
+                                <img src={playStoreIcon} alt="Play Store" className="w-7 h-7 grayscale opacity-50" />
+                                <div className="flex flex-col items-start">
+                                    <span className="text-[10px] uppercase tracking-tighter opacity-70">Get it on</span>
+                                    <span className="text-lg">Google Play</span>
+                                </div>
+                                <div className="absolute -top-3 -right-3 bg-gray-200 dark:bg-zinc-800 text-[10px] text-gray-500 px-2 py-1 rounded-md border border-gray-300 dark:border-white/10 font-bold uppercase whitespace-nowrap">
+                                    Coming Soon
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Social Proof / Trust Indicators */}
+                        <div className="mt-16 pt-16 border-t border-gray-200 dark:border-white/5 grid grid-cols-1 sm:grid-cols-3 gap-8">
+                            <div className="flex items-center justify-center gap-3 text-sm text-gray-500 dark:text-gray-500">
+                                <CheckCircle2 className="w-5 h-5 text-green-500" />
+                                <span>No Cloud Required</span>
+                            </div>
+                            <div className="flex items-center justify-center gap-3 text-sm text-gray-500 dark:text-gray-500">
+                                <CheckCircle2 className="w-5 h-5 text-green-500" />
+                                <span>100% Free to Use</span>
+                            </div>
+                            <div className="flex items-center justify-center gap-3 text-sm text-gray-500 dark:text-gray-500">
+                                <CheckCircle2 className="w-5 h-5 text-green-500" />
+                                <span>Private by Design</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

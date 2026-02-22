@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Sun, Moon } from 'lucide-react';
 
 const Navbar = () => {
+    const { t } = useTranslation();
     const [scrolled, setScrolled] = useState(false);
     const [isDark, setIsDark] = useState(false);
 
@@ -46,7 +48,7 @@ const Navbar = () => {
             }`}>
             <div className="container mx-auto px-4 flex justify-between items-center">
                 <Link to="/" className="text-xl font-bold tracking-tight text-gray-900 dark:text-white transition-colors">
-                    Anonymium AI
+                    {t('nav.title')}
                 </Link>
 
                 <div className="flex items-center gap-4">
@@ -62,15 +64,15 @@ const Navbar = () => {
                         to="/support"
                         className="text-sm font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
                     >
-                        Support
+                        {t('nav.support')}
                     </Link>
 
-                    <a
-                        href="/#download"
+                    <Link
+                        to="/download"
                         className="bg-black dark:bg-white text-white dark:text-black px-5 py-2 rounded-full text-sm font-semibold hover:opacity-80 transition-opacity"
                     >
-                        Download
-                    </a>
+                        {t('nav.download')}
+                    </Link>
                 </div>
             </div>
         </nav>

@@ -1,0 +1,83 @@
+{
+    "nav": {
+        "title": "Anonymium AI",
+        "download": "Descargar",
+        "support": "Soporte",
+        "privacy": "Política de Privacidad"
+    },
+    "hero": {
+        "title": "IA Privada, Ejecutándose Localmente en tu Dispositivo",
+        "subtitle": "Experimenta el poder de los LLM sin sacrificar tu privacidad. Sin nube, sin rastreo, solo tú y tu IA.",
+        "cta": "Comenzar",
+        "learn_more": "Más Información"
+    },
+    "about": {
+        "title": "¿Por qué Anonymium?",
+        "description": "Anonymium AI lleva el poder de los grandes modelos de lenguaje directamente a tu dispositivo. Al aprovechar la inferencia optimizada en el dispositivo, aseguramos que tus datos nunca salgan de tu teléfono."
+    },
+    "features": {
+        "title": "Características Potentes",
+        "offline": "100% Offline",
+        "offline_desc": "No requiere conexión a internet. Chatea donde sea, cuando sea.",
+        "privacy": "Privacidad Primero",
+        "privacy_desc": "Tus datos se quedan en tu dispositivo. No registramos nada.",
+        "speed": "Ultra Rápido",
+        "speed_desc": "Optimizado para hardware móvil para tiempos de respuesta rápidos.",
+        "web_connect": "Web Connect (Premium)",
+        "web_connect_desc": "Connect your phone to your browser via hotspot or WiFi for offline AI power on your PC."
+    },
+    "models": {
+        "title": "Modelos Soportados",
+        "subtitle": "Elige entre 3 potentes modelos de código abierto optimizados para tu dispositivo."
+    },
+    "privacy_section": {
+        "title": "Tu Privacidad es Sagrada",
+        "description": "A diferencia de los asistentes de IA basados en la nube, Anonymium AI se ejecuta completamente en tu dispositivo. No recopilamos tus datos, no rastreados tus conversaciones ni requerimos una cuenta.",
+        "list": [
+            "Sin Recopilación de Datos",
+            "No Requiere Cuenta",
+            "No Necesita Internet",
+            "Procesamiento 100% en el Dispositivo"
+        ]
+    },
+    "footer": {
+        "rights": "© 2026 Anonymium AI. Todos los derechos reservados.",
+        "tagline": "Tu privacidad, tu IA."
+    },
+    "support": {
+        "title": "Contactar Soporte",
+        "description": "¿Necesitas ayuda o tienes preguntas? Nuestro equipo de soporte está aquí para ayudarte.",
+        "email_label": "Envíanos un correo a"
+    },
+    "privacy_policy": {
+        "title": "Política de Privacidad",
+        "intro_title": "Introducción",
+        "intro_text": "Bienvenido a Anonymium AI. Estamos comprometidos a proteger tu privacidad y asegurar que tengas control total sobre tus datos. Nuestra filosofía es simple: Tus datos son tuyos y nunca deben salir de tu dispositivo sin tu consentimiento explícito.",
+        "collection_title": "Recopilación de Datos",
+        "collection_text": "No recopilamos, almacenamos ni transmitimos ningún dato personal usando nuestra aplicación. Anonymium AI opera completamente de forma local en tu dispositivo.",
+        "processing_title": "Procesamiento en Dispositivo",
+        "processing_text": "Todo el procesamiento de IA, incluyendo la generación de texto y el reconocimiento de voz, ocurre directamente en el hardware de tu dispositivo.",
+        "third_party_title": "Servicios de Terceros",
+        "third_party_text": "Dado que la aplicación funciona sin conexión y no se conecta a servidores externos para su funcionalidad principal, no compartimos datos con servicios de terceros.",
+        "changes_title": "Cambios a Esta Política",
+        "changes_text": "Podemos actualizar nuestra Política de Privacidad ocasionalmente.",
+        "contact_title": "Contáctanos",
+        "contact_text": "Si tienes preguntas sobre esta Política de Privacidad, contáctanos en:"
+    },
+    "how_it_works": {
+        "title": "Cómo funciona",
+        "step1_title": "Descarga la aplicación",
+        "step1_desc": "Disponible gratis en iOS",
+        "step2_title": "Elige tu modelo",
+        "step2_desc": "Selecciona el modelo de IA que se ajuste a tu dispositivo",
+        "step3_title": "Empieza a hablar",
+        "step3_desc": "Usa voz o texto para chatear con tu asistente de IA",
+        "step4_title": "Mantente privado",
+        "step4_desc": "Todo sucede en tu dispositivo, siempre"
+    },
+    "download_cta": {
+        "title": "¿Listo para experimentar IA privada?",
+        "subtitle": "Descarga Anonymium AI hoy y toma el control de tus conversaciones.",
+        "ios": "Descargar para iOS"
+    }
+}

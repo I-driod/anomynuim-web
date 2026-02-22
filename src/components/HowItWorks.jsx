@@ -1,33 +1,36 @@
 import React from 'react';
-
-const steps = [
-    {
-        num: "01",
-        title: "Download the App",
-        desc: "Available free on iOS and Android"
-    },
-    {
-        num: "02",
-        title: "Choose Your Model",
-        desc: "Select the AI model that fits your device"
-    },
-    {
-        num: "03",
-        title: "Start Talking",
-        desc: "Use voice or text to chat with your AI assistant"
-    },
-    {
-        num: "04",
-        title: "Stay Private",
-        desc: "Everything happens on your device, always"
-    }
-];
+import { useTranslation } from 'react-i18next';
 
 const HowItWorks = () => {
+    const { t } = useTranslation();
+
+    const steps = [
+        {
+            num: "01",
+            title: t('how_it_works.step1_title'),
+            desc: t('how_it_works.step1_desc')
+        },
+        {
+            num: "02",
+            title: t('how_it_works.step2_title'),
+            desc: t('how_it_works.step2_desc')
+        },
+        {
+            num: "03",
+            title: t('how_it_works.step3_title'),
+            desc: t('how_it_works.step3_desc')
+        },
+        {
+            num: "04",
+            title: t('how_it_works.step4_title'),
+            desc: t('how_it_works.step4_desc')
+        }
+    ];
+
     return (
         <section className="py-24 bg-white dark:bg-black transition-colors duration-300">
             <div className="container mx-auto px-4">
-                <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-gray-900 dark:text-white transition-colors">How It Works</h2>
+                <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-gray-900 dark:text-white transition-colors">{t('how_it_works.title')}</h2>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {steps.map((step, idx) => (
