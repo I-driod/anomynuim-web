@@ -7,6 +7,10 @@ import ar from './locales/ar.json';
 import zhCN from './locales/zh-CN.json';
 import de from './locales/de.json';
 import esMX from './locales/es-MX.json';
+import ko from './locales/ko.json';
+import ja from './locales/ja.json';
+import ptBR from './locales/pt-BR.json';
+import fr from './locales/fr.json';
 
 i18n
     .use(LanguageDetector)
@@ -18,6 +22,10 @@ i18n
             "zh-CN": { translation: zhCN },
             de: { translation: de },
             "es-MX": { translation: esMX },
+            ko: { translation: ko },
+            ja: { translation: ja },
+            "pt-BR": { translation: ptBR },
+            fr: { translation: fr },
         },
         fallbackLng: 'en',
         debug: true,

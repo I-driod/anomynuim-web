@@ -1,0 +1,112 @@
+{
+    "nav": {
+        "title": "Anonymium AI (AnonyIntel)",
+        "download": "Download",
+        "support": "Suporte",
+        "privacy": "Política de Privacidade"
+    },
+    "hero": {
+        "title": "A inteligência que permanece sua",
+        "subtitle": "Infraestrutura de IA de alto desempenho e centrada na privacidade para iOS e macOS. Sem nuvem, sem vigilância, sem necessidade de internet.",
+        "cta": "Começar",
+        "learn_more": "Visão Geral Técnica"
+    },
+    "about": {
+        "title": "Por que Anonymium AI?",
+        "description": "O Anonymium AI (AnonyIntel) traz Modelos de Linguagem Grande (LLMs) de ponta especializados para o ecossistema Apple. Experimente inferência 100% no dispositivo com zero telemetria."
+    },
+    "features": {
+        "title": "Recursos Premium",
+        "research_hub": "Centro de Pesquisa (PRO)",
+        "research_hub_desc": "Analise e sintetize relatórios estruturados—tudo mantendo a privacidade local em primeiro lugar.",
+        "voice": "Interação de Voz Universal",
+        "voice_desc": "Inteligência natural de viva-voz com reconhecimento de fala no dispositivo.",
+        "privacy": "Inferência sem Nuvem",
+        "privacy_desc": "100% dos pesos, cache KV e geração permanecem na memória local.",
+        "speed": "Aceleração Metal",
+        "speed_desc": "Inferência acelerada por GPU unificada no iOS e macOS.",
+        "global": "Suporte Global de Idiomas",
+        "global_desc": "Interface e inteligência localizadas para 9 idiomas principais."
+    },
+    "models": {
+        "title": "Ecossistema de Modelos",
+        "subtitle": "Escolha o seu nível de inteligência. Cada modelo funciona inteiramente no seu dispositivo.",
+        "free_tag": "GRÁTIS",
+        "pro_tag": "PRO",
+        "phi4_desc": "Pesquisa geral e multilíngue.",
+        "deepseek_desc": "Raciocínio avançado e fluxos lógicos.",
+        "qwen35_desc": "Tarefas de raciocínio de alta velocidade.",
+        "qwen_coder_desc": "Assistente técnico e de codificação especializado."
+    },
+    "tech_specs": {
+        "title": "Arquitetura Central",
+        "inference_engine": "Motor Swift LLM Personalizado",
+        "backend_desc": "Alimentado por um derivado do llama.cpp altamente otimizado via llama.xcframework.",
+        "hardware_title": "Compatibilidade de Hardware",
+        "mac_req": "Todos os Macs M-Series e baseados em Intel com 8GB+ de RAM recomendados (Mínimo de 6GB).",
+        "ios_req": "iPhone 15 Pro, iPhone 16 e modelos posteriores recomendados para modelos Pro.",
+        "software_req": "iOS 17.0+ / macOS 14.0+ (Sonoma/Sequoia)."
+    },
+    "pricing": {
+        "title": "Preços Simples e Justos",
+        "lifetime_unlock": "Acesso Vitalício",
+        "price": "R$ 29,90",
+        "benefits_title": "Por que ser Pro?",
+        "benefits": [
+            "Livraria completa Pro (DeepSeek, Qwen)",
+            "Motor de síntese Research Hub",
+            "Sem assinaturas - Pague uma vez, é seu para sempre",
+            "Licença Multiplataforma (iOS & macOS)"
+        ]
+    },
+    "privacy_section": {
+        "title": "Segurança é o Nosso Core Business",
+        "description": "O \"Anony\" no Anonymium AI representa nosso compromisso com a soberania total de dados.",
+        "list": [
+            "Zero Dados Pessoais: Nunca vemos seu nome ou e-mail.",
+            "Apple StoreKit 2: Cada transação é verificada e criptografada pela Apple.",
+            "Zero Servidores: Sem telemetria, logs ou dados de conversas transmitidos.",
+            "Verdade no Dispositivo: 100% de inferência de IA na sua GPU/NPU local."
+        ]
+    },
+    "footer": {
+        "rights": "© 2026 Anonymium AI (AnonyIntel). Todos os direitos reservados.",
+        "tagline": "O fim da assinatura mensal. O início da IA privada."
+    },
+    "support": {
+        "title": "Contate o Suporte",
+        "description": "Precisa de ajuda ou tem perguntas? Nossa equipe está à disposição.",
+        "email_label": "Envie um e-mail para"
+    },
+    "privacy_policy": {
+        "title": "Política de Privacidade",
+        "intro_title": "Introdução",
+        "intro_text": "Bem-vindo ao Anonymium AI. Sua privacidade é nossa prioridade.",
+        "collection_title": "Coleta de Dados",
+        "collection_text": "Não coletamos nem transmitimos dados pessoais. Funciona de forma local.",
+        "processing_title": "Processamento On-Device",
+        "processing_text": "Todo o processamento ocorre no seu hardware usando Metal.",
+        "third_party_title": "Serviços de Terceiros",
+        "third_party_text": "Não compartilhamos dados com terceiros. Zero servidores.",
+        "changes_title": "Mudanças na Política",
+        "changes_text": "Podemos atualizar esta política ocasionalmente.",
+        "contact_title": "Contato",
+        "contact_text": "Perguntas? Contate-nos em:"
+    },
+    "how_it_works": {
+        "title": "Como Funciona",
+        "step1_title": "Baixar",
+        "step1_desc": "Disponível no iOS e macOS",
+        "step2_title": "Escolher Modelo",
+        "step2_desc": "Selecione o modelo de IA ideal para o seu dispositivo",
+        "step3_title": "Começar a Conversar",
+        "step3_desc": "Use voz ou texto para falar com seu assistente",
+        "step4_title": "Soberania Local",
+        "step4_desc": "Tudo permanece no seu hardware"
+    },
+    "download_cta": {
+        "title": "Pronto para a IA Privada?",
+        "subtitle": "Baixe o Anonymium AI hoje e tome o controle.",
+        "apple_btn": "Baixar na App Store"
+    }
+}

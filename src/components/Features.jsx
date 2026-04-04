@@ -1,5 +1,5 @@
 import React from 'react';
-import { Lock, Smartphone, Mic, Brain, Zap, Monitor, Wifi } from 'lucide-react';
+import { Shield, Mic, Brain, Zap, Globe, Search, Database } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Features = () => {
@@ -7,24 +7,25 @@ const Features = () => {
 
     const features = [
         {
-            icon: Lock,
+            icon: Shield,
             title: t('features.privacy'),
             description: t('features.privacy_desc')
         },
         {
-            icon: Smartphone,
-            title: t('features.offline'),
-            description: t('features.offline_desc')
+            icon: Search,
+            title: t('features.research_hub'),
+            description: t('features.research_hub_desc'),
+            isPremium: true
         },
         {
             icon: Mic,
-            title: t('features.voice', 'Voice Enabled'),
-            description: t('features.voice_desc', 'Speak naturally and get instant responses.')
+            title: t('features.voice'),
+            description: t('features.voice_desc')
         },
         {
-            icon: Brain,
-            title: t('features.models', 'Multiple AI Models'),
-            description: t('features.models_desc', 'Choose from 3 different AI models.')
+            icon: Database,
+            title: t('features.privacy'),
+            description: t('features.privacy_desc')
         },
         {
             icon: Zap,
@@ -32,16 +33,18 @@ const Features = () => {
             description: t('features.speed_desc')
         },
         {
-            icon: Monitor,
-            title: t('features.web_connect', 'Web Connect (Premium)'),
-            description: t('features.web_connect_desc', 'Connect your phone to your browser via hotspot or WiFi for offline AI power on your PC.'),
-            isPremium: true
+            icon: Globe,
+            title: t('features.global'),
+            description: t('features.global_desc')
         }
     ];
 
     return (
-        <section className="py-24 bg-gray-50 dark:bg-zinc-950/50 transition-colors duration-300">
+        <section className="py-24 bg-gray-50 dark:bg-zinc-950/50 transition-colors duration-300" id="features">
             <div className="container mx-auto px-4">
+                <div className="text-center mb-16">
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white transition-colors">{t('features.title')}</h2>
+                </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {features.map((feature, index) => (
                         <div
@@ -75,13 +78,6 @@ const Features = () => {
                             <p className="text-gray-600 dark:text-gray-400 leading-relaxed transition-colors">
                                 {feature.description}
                             </p>
-
-                            {feature.isPremium && (
-                                <div className="mt-6 flex items-center gap-2 text-xs font-semibold text-blue-600 dark:text-blue-400">
-                                    <Wifi className="w-3 h-3" />
-                                    <span>Hotspot / WiFi Ready</span>
-                                </div>
-                            )}
                         </div>
                     ))}
                 </div>

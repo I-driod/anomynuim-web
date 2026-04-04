@@ -1,0 +1,112 @@
+{
+    "nav": {
+        "title": "Anonymium AI (AnonyIntel)",
+        "download": "ダウンロード",
+        "support": "サポート",
+        "privacy": "プライバシーポリシー"
+    },
+    "hero": {
+        "title": "あなただけの知能",
+        "subtitle": "iOSおよびmacOS向けの高性能・プライバシー中心のAIインフラ。クラウド、監視、インターネットが不要です。",
+        "cta": "今すぐ開始",
+        "learn_more": "技術概要"
+    },
+    "about": {
+        "title": "なぜ Anonymium AI なのか？",
+        "description": "Anonymium AI (AnonyIntel) は Apple エコシステムに最適化された最先端の大規模言語モデル (LLM) を提供します。テレメトリなしで 100% オンデバイス推論を体験してください。"
+    },
+    "features": {
+        "title": "プレミアム機能",
+        "research_hub": "リサーチハブ (PRO)",
+        "research_hub_desc": "ローカル優先のプライバシーを維持しながら、構造化されたレポートをスキャン、分析、統合します。",
+        "voice": "ユニバーサル音声インタラクション",
+        "voice_desc": "オンデバイス音声認識機能を備えた、自然なハンズフリー知能です。",
+        "privacy": "ゼロクラウド推論",
+        "privacy_desc": "モデルの重み、KV キャッシュ、出力が 100% ローカルメモリに保持されます。",
+        "speed": "Metal 加速",
+        "speed_desc": "iOS および macOS 全体で統合された GPU 加速推論を提供します。",
+        "global": "グローバル言語サポート",
+        "global_desc": "9つの主要言語でローカライズされたインターフェースと知能をサポートします。"
+    },
+    "models": {
+        "title": "モデルエコシステム",
+        "subtitle": "知能レベルを選択してください。すべてのモデルはデバイス上で完全に実行されます。",
+        "free_tag": "無料",
+        "pro_tag": "プロ",
+        "phi4_desc": "汎用、多機能、多言語研究用。",
+        "deepseek_desc": "高度な推論と論理的なワークフロー。",
+        "qwen35_desc": "高速な推論とエージェントタスク。",
+        "qwen_coder_desc": "専門的なコーディング・技術アシスタント。"
+    },
+    "tech_specs": {
+        "title": "コアアーキテクチャ",
+        "inference_engine": "カスタム Swift LLM エンジン",
+        "backend_desc": "llama.xcframework を通じて最適化された llama.cpp 派生エンジンが駆動します。",
+        "hardware_title": "ハードウェアの互換性",
+        "mac_req": "8GB以上のRAMを推奨するすべての M シリーズおよび Intel ベースの Mac (最小 6GB)。",
+        "ios_req": "プロ級モデルの場合、iPhone 15 Pro、iPhone 16 以降を推奨。",
+        "software_req": "iOS 17.0+ / macOS 14.0+ (Sonoma/Sequoia)。"
+    },
+    "pricing": {
+        "title": "シンプルで適正な価格",
+        "lifetime_unlock": "生涯アクセス権",
+        "price": "¥900",
+        "benefits_title": "なぜプロを選ぶべきなのか？",
+        "benefits": [
+            "フルプロモデルライブラリ (DeepSeek, Qwen)",
+            "リサーチハブ統合エンジン",
+            "サブスクリプションなし - 一度の支払いで一生所有",
+            "クロスプラットフォームライセンス (iOS & macOS)"
+        ]
+    },
+    "privacy_section": {
+        "title": "セキュリティは当社の中心製品です",
+        "description": "Anonymium AI の \"Anony\" は、完全なデータ主権への当社の取り組みを表しています。",
+        "list": [
+            "個人データゼロ：お客様の名前やメールを一切見ることはありません。",
+            "Apple StoreKit 2：すべての取引は Apple によって検証、暗号化されます。",
+            "サーバーゼロ：テレメトリ、ログ、会話データの転送はありません。",
+            "オンデバイスの真実：100% AI 推論がローカル GPU/NPU で行われます。"
+        ]
+    },
+    "footer": {
+        "rights": "© 2026 Anonymium AI (AnonyIntel). All rights reserved.",
+        "tagline": "月額サブスクリプションの終焉。プライベート AI の始まり。"
+    },
+    "support": {
+        "title": "サポートへのお問い合わせ",
+        "description": "ご不明な点がございましたら、サポートチームにお問い合わせください。",
+        "email_label": "メールでお問い合わせ:"
+    },
+    "privacy_policy": {
+        "title": "プライバシーポリシー",
+        "intro_title": "はじめに",
+        "intro_text": "Anonymium AI へようこそ。あなたのプライバシーが最優先です。",
+        "collection_title": "データ収集",
+        "collection_text": "個人データの収集、保存、送信は行いません。すべての機能はローカルで動作します。",
+        "processing_title": "オンデバイス処理",
+        "processing_text": "すべての AI 処理は、Metal 加速を使用してハードウェア上で直接実行されます。",
+        "third_party_title": "第三者サービス",
+        "third_party_text": "第三者とデータを共有することはありません。データを保存するサーバーもありません。",
+        "changes_title": "ポリシーの変更",
+        "changes_text": "ポリシーは随時更新されることがあります。",
+        "contact_title": "お問い合わせ",
+        "contact_text": "ご不明な点がございましたら、以下までお問い合わせください:"
+    },
+    "how_it_works": {
+        "title": "使い方",
+        "step1_title": "ダウンロード",
+        "step1_desc": "iOS および macOS で利用可能",
+        "step2_title": "モデルを選択",
+        "step2_desc": "デバイスに合った AI モデルを選択してください",
+        "step3_title": "チャットを開始",
+        "step3_desc": "音声またはテキストでアシスタントと対話しましょう",
+        "step4_title": "ローカル主権",
+        "step4_desc": "すべてがハードウェア内で完結します"
+    },
+    "download_cta": {
+        "title": "プライベート AI を体験する準備はできましたか？",
+        "subtitle": "今すぐ Anonymium AI をダウンロードして知能の権利を掌握しましょう。",
+        "apple_btn": "App Store からダウンロード"
+    }
+}

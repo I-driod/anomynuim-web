@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Sun, Moon } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
     const { t } = useTranslation();
@@ -47,8 +48,13 @@ const Navbar = () => {
             : 'bg-transparent py-6'
             }`}>
             <div className="container mx-auto px-4 flex justify-between items-center">
-                <Link to="/" className="text-xl font-bold tracking-tight text-gray-900 dark:text-white transition-colors">
-                    {t('nav.title')}
+                <Link to="/" className="flex items-center gap-3 group">
+                    <div className="w-12 h-12 rounded-2xl overflow-hidden bg-white dark:bg-white/10 border border-gray-200 dark:border-white/10 group-hover:scale-105 transition-transform shadow-md p-1.5 flex items-center justify-center">
+                        <img src={logo} alt="Anonymium AI Logo" className="w-full h-full object-contain" />
+                    </div>
+                    <span className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 dark:text-white transition-colors">
+                        {t('nav.title')}
+                    </span>
                 </Link>
 
                 <div className="flex items-center gap-4">

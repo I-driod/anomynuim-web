@@ -1,83 +1,112 @@
 {
     "nav": {
-        "title": "Anonymium AI",
+        "title": "Anonymium AI (AnonyIntel)",
         "download": "Herunterladen",
         "support": "Support",
         "privacy": "Datenschutz"
     },
     "hero": {
-        "title": "Private KI, lokal auf Ihrem Gerät",
-        "subtitle": "Erleben Sie die Macht von LLMs ohne Ihre Privatsphäre zu opfern. Keine Cloud, kein Tracking, nur Sie und Ihre KI.",
+        "title": "Intelligenz, die bei Ihnen bleibt",
+        "subtitle": "Hochleistungsfähige, datenschutzorientierte KI-Infrastruktur für iOS und macOS. Keine Cloud, keine Überwachung, kein Internet erforderlich.",
         "cta": "Loslegen",
-        "learn_more": "Mehr erfahren"
+        "learn_more": "Technische Übersicht"
     },
     "about": {
-        "title": "Warum Anonymium?",
-        "description": "Anonymium AI bringt die Leistung großer Sprachmodelle direkt auf Ihr Gerät. Durch optimierte On-Device-Inferenz stellen wir sicher, dass Ihre Daten Ihr Telefon niemals verlassen."
+        "title": "Warum Anonymium AI?",
+        "description": "Anonymium AI (AnonyIntel) bringt modernste Large Language Models (LLMs) spezialisiert auf das Apple-Ökosystem. Erleben Sie 100% On-Device-Inferenz ohne Telemetrie."
     },
     "features": {
-        "title": "Leistungsstarke Funktionen",
-        "offline": "100% Offline",
-        "offline_desc": "Keine Internetverbindung erforderlich. Chatten Sie überall und jederzeit.",
-        "privacy": "Privatsphäre zuerst",
-        "privacy_desc": "Ihre Daten bleiben auf Ihrem Gerät. Wir speichern nichts.",
-        "speed": "Blitzschnell",
-        "speed_desc": "Optimiert für mobile Hardware für schnelle Reaktionszeiten.",
-        "web_connect": "Web Connect (Premium)",
-        "web_connect_desc": "Connect your phone to your browser via hotspot or WiFi for offline AI power on your PC."
+        "title": "Premium-Funktionen",
+        "research_hub": "Research Hub (PRO)",
+        "research_hub_desc": "Scannen, analysieren und synthetisieren Sie strukturierte Berichte – unter Wahrung Ihrer Privatsphäre.",
+        "voice": "Universelle Sprachinteraktion",
+        "voice_desc": "Natürliche, freihändige Intelligenz mit On-Device-Spracherkennung.",
+        "privacy": "Zero-Cloud-Inferenz",
+        "privacy_desc": "100% der Gewichte und des KV-Caches bleiben im lokalen Speicher.",
+        "speed": "Metal-Beschleunigung",
+        "speed_desc": "Einheitliche GPU-beschleunigte Inferenz auf iOS und macOS.",
+        "global": "Globale Sprachunterstützung",
+        "global_desc": "Schnittstelle und Intelligenz lokalisiert für 9 wichtige Sprachen."
     },
     "models": {
-        "title": "Unterstützte Modelle",
-        "subtitle": "Wählen Sie aus 3 leistungsstarken Open-Source-Modellen, die für Ihr Gerät optimiert sind."
+        "title": "Das Modell-Ökosystem",
+        "subtitle": "Wählen Sie Ihre Intelligenzstufe. Jedes Modell läuft vollständig auf Ihrem Gerät.",
+        "free_tag": "KOSTENLOS",
+        "pro_tag": "PRO",
+        "phi4_desc": "Allzweck, mehrsprachige Forschung.",
+        "deepseek_desc": "Fortgeschrittenes logisches Denken.",
+        "qwen35_desc": "Hochgeschwindigkeits-Denkaufgaben.",
+        "qwen_coder_desc": "Spezialisierter Coding-Assistent."
+    },
+    "tech_specs": {
+        "title": "Kernarchitektur",
+        "inference_engine": "Eigene Swift LLM Engine",
+        "backend_desc": "Angetrieben von einem hochoptimierten llama.cpp-Derivat über llama.xcframework.",
+        "hardware_title": "Hardware-Kompatibilität",
+        "mac_req": "Alle M-Serie und Intel-basierten Macs mit 8GB+ RAM empfohlen (6GB Minimum).",
+        "ios_req": "iPhone 15 Pro, iPhone 16 und neuer für Pro-Modelle empfohlen.",
+        "software_req": "iOS 17.0+ / macOS 14.0+ (Sonoma/Sequoia)."
+    },
+    "pricing": {
+        "title": "Einfache, faire Preise",
+        "lifetime_unlock": "Lebenslanges Upgrade",
+        "price": "5,99 €",
+        "benefits_title": "Warum Pro?",
+        "benefits": [
+            "Vollständige Pro-Bibliothek",
+            "Research Hub Synthese-Engine",
+            "Keine Abonnements - Einmal zahlen, ewig nutzen",
+            "Plattformübergreifende Lizenz"
+        ]
     },
     "privacy_section": {
-        "title": "Ihre Privatsphäre ist heilig",
-        "description": "Im Gegensatz zu Cloud-basierten KI-Assistenten läuft Anonymium AI vollständig auf Ihrem Gerät. Wir sammeln keine Daten, verfolgen keine Gespräche und benötigen kein Konto.",
+        "title": "Sicherheit ist unser Kernprodukt",
+        "description": "Das \"Anony\" in Anonymium AI steht für unser Engagement für totale Datensouveränität.",
         "list": [
-            "Keine Datensammlung",
-            "Kein Konto erforderlich",
-            "Kein Internet erforderlich",
-            "100% Verarbeitung auf dem Gerät"
+            "Keine persönlichen Daten: Wir sehen niemals Ihren Namen oder Ihre E-Mail.",
+            "Apple StoreKit 2: Jede Transaktion ist von Apple verschlüsselt.",
+            "Keine Server: Keine Telemetrie oder Gesprächsdaten werden übertragen.",
+            "On-Device Truth: 100% Inferenz auf Ihrem lokalen GPU/NPU."
         ]
     },
     "footer": {
-        "rights": "© 2026 Anonymium AI. Alle Rechte vorbehalten.",
-        "tagline": "Ihre Privatsphäre, Ihre KI."
+        "rights": "© 2026 Anonymium AI (AnonyIntel). Alle Rechte vorbehalten.",
+        "tagline": "Das Ende des Monatsabos. Der Beginn privater KI."
     },
     "support": {
         "title": "Support kontaktieren",
-        "description": "Benötigen Sie Hilfe? Unser Support-Team ist für Sie da.",
-        "email_label": "Senden Sie uns eine E-Mail an"
+        "description": "Benötigen Sie Hilfe? Unser Team ist für Sie da.",
+        "email_label": "E-Mail an"
     },
     "privacy_policy": {
-        "title": "Datenschutzrichtlinie",
+        "title": "Datenschutz",
         "intro_title": "Einführung",
-        "intro_text": "Willkommen bei Anonymium AI. Wir verpflichten uns, deine Privatsphäre zu schützen und sicherzustellen, dass du die volle Kontrolle über deine Daten hast. Unsere Philosophie ist einfach: Deine Daten gehören dir und sollten niemals ohne deine ausdrückliche Zustimmung dein Gerät verlassen.",
+        "intro_text": "Willkommen bei Anonymium AI. Ihre Privatsphäre ist unsere Priorität.",
         "collection_title": "Datenerfassung",
-        "collection_text": "Wir erfassen, speichern oder übertragen keine persönlichen Daten über unsere Anwendung. Anonymium AI läuft vollständig lokal auf deinem Gerät.",
-        "processing_title": "Verarbeitung auf dem Gerät",
-        "processing_text": "Die gesamte KI-Verarbeitung, einschließlich Textgenerierung und Spracherkennung, findet direkt auf deiner Hardware statt.",
-        "third_party_title": "Dienste von Drittanbietern",
-        "third_party_text": "Da die App offline funktioniert und sich für ihre Kernfunktionen nicht mit externen Servern verbindet, geben wir keine Daten an Dienste von Drittanbietern weiter.",
-        "changes_title": "Änderungen an dieser Richtlinie",
-        "changes_text": "Wir können unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren.",
-        "contact_title": "Kontaktiere uns",
-        "contact_text": "Wenn du Fragen zu dieser Datenschutzrichtlinie hast, kontaktiere uns bitte unter:"
+        "collection_text": "Wir erfassen keine persönlichen Daten. Alles bleibt lokal.",
+        "processing_title": "On-Device-Verarbeitung",
+        "processing_text": "Die Verarbeitung erfolgt über Metal-Beschleunigung auf Ihrer Hardware.",
+        "third_party_title": "Drittanbieter",
+        "third_party_text": "Wir geben keine Daten weiter. Wir haben keine Server.",
+        "changes_title": "Änderungen",
+        "changes_text": "Wir können diese Richtlinie gelegentlich aktualisieren.",
+        "contact_title": "Kontakt",
+        "contact_text": "Fragen? Kontakt unter:"
     },
     "how_it_works": {
-        "title": "Wie es funktioniert",
-        "step1_title": "App herunterladen",
-        "step1_desc": "Kostenlos für iOS verfügbar",
-        "step2_title": "Wähle dein Modell",
-        "step2_desc": "Wähle das AI-Modell, das zu deinem Gerät passt",
-        "step3_title": "Fang an zu sprechen",
-        "step3_desc": "Nutze Sprache oder Text, um mit deinem AI-Assistenten zu chatten",
-        "step4_title": "Bleib privat",
-        "step4_desc": "Alles passiert auf deinem Gerät, immer"
+        "title": "So funktioniert es",
+        "step1_title": "Herunterladen",
+        "step1_desc": "Verfügbar für iOS und macOS",
+        "step2_title": "Modell wählen",
+        "step2_desc": "Wählen Sie das passende KI-Modell",
+        "step3_title": "Chatten",
+        "step3_desc": "Nutzen Sie Sprache oder Text",
+        "step4_title": "Lokale Souveränität",
+        "step4_desc": "Alles bleibt auf Ihrer Hardware"
     },
     "download_cta": {
-        "title": "Bereit für privates AI?",
-        "subtitle": "Lade Anonymium AI heute herunter und übernimm die Kontrolle über deine Gespräche.",
-        "ios": "Für iOS herunterladen"
+        "title": "Bereit für private KI?",
+        "subtitle": "Laden Sie Anonymium AI heute herunter.",
+        "apple_btn": "Im App Store laden"
     }
 }
