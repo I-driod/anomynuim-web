@@ -29,31 +29,31 @@ const HowItWorks = () => {
     ];
 
     return (
-        <section className="py-24 bg-white dark:bg-black transition-colors duration-300" id="tech-specs">
+        <section className="py-16 md:py-24 bg-white dark:bg-black transition-colors duration-300" id="tech-specs">
             <div className="container mx-auto px-4">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white transition-colors">{t('how_it_works.title')}</h2>
+                <div className="text-center mb-12 md:mb-16">
+                    <h2 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6 text-gray-900 dark:text-white transition-colors leading-tight px-4">{t('how_it_works.title')}</h2>
                 </div>
 
-                <div className="grid md:grid-cols-4 gap-8 mb-24">
+                <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-8 mb-16 md:mb-24">
                     {steps.map((step, idx) => (
-                        <div key={idx} className="text-center group">
-                            <div className="w-16 h-16 bg-blue-500/10 text-blue-600 dark:text-blue-400 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
-                                <step.icon className="w-8 h-8" />
+                        <div key={idx} className="text-center group px-4">
+                            <div className="w-14 h-14 md:w-16 md:h-16 bg-blue-500/10 text-blue-600 dark:text-blue-400 rounded-2xl flex items-center justify-center mx-auto mb-4 md:mb-6 group-hover:scale-110 transition-transform">
+                                <step.icon className="w-7 h-7 md:w-8 md:h-8" />
                             </div>
-                            <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white transition-colors">{step.title}</h3>
+                            <h3 className="text-lg md:text-xl font-bold mb-2 text-gray-900 dark:text-white transition-colors">{step.title}</h3>
                             <p className="text-gray-600 dark:text-gray-400 text-sm transition-colors">{step.desc}</p>
                         </div>
                     ))}
                 </div>
 
-                <div className="max-w-4xl mx-auto bg-gray-50 dark:bg-zinc-900/50 rounded-3xl p-8 md:p-12 border border-gray-200 dark:border-white/5 shadow-sm">
-                    <div className="flex items-center gap-3 mb-8">
+                <div className="max-w-4xl mx-auto bg-gray-50 dark:bg-zinc-900/50 rounded-3xl p-6 md:p-12 border border-gray-200 dark:border-white/5 shadow-sm">
+                    <div className="flex items-center gap-3 mb-6 md:mb-8">
                         <Hammer className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white">{t('tech_specs.title')}</h3>
                     </div>
 
-                    <div className="grid md:grid-cols-2 gap-12">
+                    <div className="grid md:grid-cols-2 gap-8 md:gap-12">
                         <div className="space-y-6">
                             <div>
                                 <h4 className="font-bold text-gray-900 dark:text-white mb-2">{t('tech_specs.inference_engine')}</h4>
@@ -88,7 +88,7 @@ const HowItWorks = () => {
                                 </ul>
                                 <div className="mt-8 pt-6 border-t border-gray-200 dark:border-white/5 flex justify-between items-center">
                                     <span className="font-bold text-gray-900 dark:text-white">{t('pricing.lifetime_unlock')}</span>
-                                    <span className="text-2xl font-black text-blue-600 dark:text-blue-400">{t('pricing.price')}</span>
+                                    <span className="text-xl md:text-2xl font-black text-blue-600 dark:text-blue-400">{t('pricing.price')}</span>
                                 </div>
                             </div>
                         </div>

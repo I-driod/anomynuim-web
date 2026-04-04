@@ -40,16 +40,16 @@ const Features = () => {
     ];
 
     return (
-        <section className="py-24 bg-gray-50 dark:bg-zinc-950/50 transition-colors duration-300" id="features">
+        <section className="py-16 md:py-24 bg-gray-50 dark:bg-zinc-950/50 transition-colors duration-300" id="features">
             <div className="container mx-auto px-4">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white transition-colors">{t('features.title')}</h2>
+                <div className="text-center mb-12 md:mb-16">
+                    <h2 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6 text-gray-900 dark:text-white transition-colors px-2 leading-tight">{t('features.title')}</h2>
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                     {features.map((feature, index) => (
                         <div
                             key={index}
-                            className={`p-8 rounded-2xl bg-white dark:bg-white/5 border transition-all shadow-sm dark:shadow-none hover:shadow-md relative overflow-hidden group ${feature.isPremium
+                            className={`p-6 md:p-8 rounded-2xl bg-white dark:bg-white/5 border transition-all shadow-sm dark:shadow-none hover:shadow-md relative overflow-hidden group ${feature.isPremium
                                     ? 'border-blue-500/50 dark:border-blue-400/50 bg-blue-50/30 dark:bg-blue-900/10 ring-1 ring-blue-500/20'
                                     : 'border-gray-200 dark:border-white/5 hover:border-blue-500/20 dark:hover:border-white/10'
                                 }`}
