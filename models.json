@@ -2,6 +2,7 @@
   {
     "id": "open_hermes_2_5_custom",
     "name": "Open Hermes 2.5 (Custom)",
+    "displayName": "Open Hermes 2.5 (Custom)",
     "pathName": "openhermes-2.5-mistral-7b.Q4_K_M",
     "pathExtension": "gguf",
     "category": "Community | Roleplay",
@@ -13,11 +14,14 @@
     "minRAMGB": 6.5,
     "desktopOnly": false,
     "maxContextTokens": 4096,
-    "decodeTokenOffset": 512,
+    "decodeReserveTokens": 512,
     "estimatedRuntimeMemoryBytes": 4300000000,
     "downloadSizeDisplayString": "4.1 GB",
     "repeatPenalty": 1.1,
-    "stopStrings": ["<|im_end|>", "[End of message]"],
+    "stopStrings": [
+      "<|im_end|>",
+      "[End of message]"
+    ],
     "warningMessageKey": null,
     "hasEmbeddedChatTemplate": true,
     "isPremium": true,
