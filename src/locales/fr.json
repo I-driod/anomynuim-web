@@ -26,7 +26,9 @@
         "speed": "Accélération Metal",
         "speed_desc": "Inférence accélérée par GPU unifiée sur iOS et macOS.",
         "global": "Support Global de Langues",
-        "global_desc": "Interface et intelligence localisées pour 9 langues majeures."
+        "global_desc": "Interface et intelligence localisées pour 9 langues majeures.",
+        "community_models": "Registre de Modèles Communautaires",
+        "community_models_desc": "Accédez à une bibliothèque croissante de modèles GGUF affinés directement depuis notre registre cloud dynamique."
     },
     "models": {
         "title": "Écosystème de Modèles",
@@ -36,7 +38,9 @@
         "phi4_desc": "Recherche générale et multilingue.",
         "deepseek_desc": "Raisonnement avancé et flux de travail logiques.",
         "qwen35_desc": "Tâches de raisonnement à grande vitesse.",
-        "qwen_coder_desc": "Assistant technique et code spécialisé."
+        "qwen35_desc": "Tâches de raisonnement à grande vitesse.",
+        "qwen_coder_desc": "Assistant technique et code spécialisé.",
+        "openhermes_desc": "Modèle d'instruction et de roleplay hautement polyvalent, affiné par la communauté."
     },
     "tech_specs": {
         "title": "Architecture Core",
@@ -55,6 +59,7 @@
         "benefits": [
             "Bibliothèque Pro complète (DeepSeek, Qwen)",
             "Moteur de synthèse Research Hub",
+            "Accès au registre de modèles communautaire",
             "Pas d'abonnement - Payez une fois, possédez à vie",
             "Licence Multiplateforme (iOS & macOS)"
         ]

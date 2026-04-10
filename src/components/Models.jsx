@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Cpu, Zap, Code, Brain } from 'lucide-react';
+import { Cpu, Zap, Code, Brain, Globe } from 'lucide-react';
 
 const Models = () => {
     const { t } = useTranslation();
@@ -21,6 +21,14 @@ const Models = () => {
             stats: { size: "4.3GB", context: "8,192 Tokens" },
             icon: Brain,
             color: "purple"
+        },
+        {
+            name: "Open Hermes 2.5",
+            tag: t('models.pro_tag'),
+            desc: t('models.openhermes_desc'),
+            stats: { size: "4.1GB", context: "4,096 Tokens" },
+            icon: Globe,
+            color: "cyan"
         },
         {
             name: "Qwen 3.5 4B",

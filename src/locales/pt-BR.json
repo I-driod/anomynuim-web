@@ -26,7 +26,9 @@
         "speed": "Aceleração Metal",
         "speed_desc": "Inferência acelerada por GPU unificada no iOS e macOS.",
         "global": "Suporte Global de Idiomas",
-        "global_desc": "Interface e inteligência localizadas para 9 idiomas principais."
+        "global_desc": "Interface e inteligência localizadas para 9 idiomas principais.",
+        "community_models": "Registro de Modelos da Comunidade",
+        "community_models_desc": "Acesse uma biblioteca crescente de modelos GGUF ajustados diretamente do nosso registro dinâmico na nuvem."
     },
     "models": {
         "title": "Ecossistema de Modelos",
@@ -36,7 +38,8 @@
         "phi4_desc": "Pesquisa geral e multilíngue.",
         "deepseek_desc": "Raciocínio avançado e fluxos lógicos.",
         "qwen35_desc": "Tarefas de raciocínio de alta velocidade.",
-        "qwen_coder_desc": "Assistente técnico e de codificação especializado."
+        "qwen_coder_desc": "Assistente técnico e de codificação especializado.",
+        "openhermes_desc": "Modelo de instrução e roleplay altamente versátil, ajustado pela comunidade."
     },
     "tech_specs": {
         "title": "Arquitetura Central",

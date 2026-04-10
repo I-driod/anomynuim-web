@@ -26,7 +26,9 @@
         "speed": "Metal 加速",
         "speed_desc": "iOS 和 macOS 上的统一 GPU 加速推理。",
         "global": "全球语言支持",
-        "global_desc": "界面和智能针对 9 种主要语言进行了本地化。"
+        "global_desc": "界面和智能针对 9 种主要语言进行了本地化。",
+        "community_models": "社区模型注册表",
+        "community_models_desc": "直接从我们的动态云注册访问不断增长的微调 GGUF 模型库。"
     },
     "models": {
         "title": "模型生态系统",
@@ -36,7 +38,9 @@
         "phi4_desc": "通用、多语言研究。",
         "deepseek_desc": "先进推理和逻辑工作流。",
         "qwen35_desc": "高速推理和智能体任务。",
-        "qwen_coder_desc": "专业编程和技术助手。"
+        "qwen35_desc": "高速推理和智能体任务。",
+        "qwen_coder_desc": "专业编程和技术助手。",
+        "openhermes_desc": "高度通用的社区微调版角色扮演与指令模型。"
     },
     "tech_specs": {
         "title": "核心架构",
@@ -55,6 +59,7 @@
         "benefits": [
             "完整的专业版库 (DeepSeek, Qwen)",
             "研究中心合成引擎",
+            "社区模型注册表访问",
             "无订阅 - 一次付费，终身拥有",
             "跨平台许可 (iOS & macOS)"
         ]

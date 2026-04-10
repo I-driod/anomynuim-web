@@ -26,7 +26,9 @@
         "speed": "Metal-Beschleunigung",
         "speed_desc": "Einheitliche GPU-beschleunigte Inferenz auf iOS und macOS.",
         "global": "Globale Sprachunterstützung",
-        "global_desc": "Schnittstelle und Intelligenz lokalisiert für 9 wichtige Sprachen."
+        "global_desc": "Schnittstelle und Intelligenz lokalisiert für 9 wichtige Sprachen.",
+        "community_models": "Community-Modell-Registry",
+        "community_models_desc": "Greifen Sie auf eine wachsende Bibliothek von fein abgestimmten GGUF-Modellen direkt aus unserer dynamischen Cloud-Registry zu."
     },
     "models": {
         "title": "Das Modell-Ökosystem",
@@ -36,7 +38,9 @@
         "phi4_desc": "Allzweck, mehrsprachige Forschung.",
         "deepseek_desc": "Fortgeschrittenes logisches Denken.",
         "qwen35_desc": "Hochgeschwindigkeits-Denkaufgaben.",
-        "qwen_coder_desc": "Spezialisierter Coding-Assistent."
+        "qwen35_desc": "Hochgeschwindigkeits-Denkaufgaben.",
+        "qwen_coder_desc": "Spezialisierter Coding-Assistent.",
+        "openhermes_desc": "Vielseitiges, von der Community optimiertes Rollenspiel- und Instruktionsmodell."
     },
     "tech_specs": {
         "title": "Kernarchitektur",
@@ -55,6 +59,7 @@
         "benefits": [
             "Vollständige Pro-Bibliothek",
             "Research Hub Synthese-Engine",
+            "Zugang zur Community-Modell-Registry",
             "Keine Abonnements - Einmal zahlen, ewig nutzen",
             "Plattformübergreifende Lizenz"
         ]

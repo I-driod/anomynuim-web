@@ -26,7 +26,9 @@
         "speed": "Metal 가속",
         "speed_desc": "iOS 및 macOS 전반에서 통합된 GPU 가속 추론을 제공합니다.",
         "global": "글로벌 언어 지원",
-        "global_desc": "9개 주요 언어로 현지화된 인터페이스와 지능을 지원합니다."
+        "global_desc": "9개 주요 언어로 현지화된 인터페이스와 지능을 지원합니다.",
+        "community_models": "커뮤니티 모델 레지스트리",
+        "community_models_desc": "동적 클라우드 레지스트리에서 직접 미세 조정된 GGUF 모델의 성장하는 라이브러리에 액세스하십시오."
     },
     "models": {
         "title": "모델 에코시스템",
@@ -36,7 +38,8 @@
         "phi4_desc": "범용, 다국어 연구용.",
         "deepseek_desc": "고급 추론 및 논리적 워크플로우.",
         "qwen35_desc": "고속 추론 및 에이전트 작업.",
-        "qwen_coder_desc": "전문 코딩 및 기술 어시스턴트."
+        "qwen_coder_desc": "전문 코딩 및 기술 어시스턴트.",
+        "openhermes_desc": "커뮤니티에서 미세 조정된 매우 다재다능한 롤플레잉 및 명령 모델입니다."
     },
     "tech_specs": {
         "title": "핵심 아키텍처",

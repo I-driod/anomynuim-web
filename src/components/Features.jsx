@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Mic, Brain, Zap, Globe, Search, Database } from 'lucide-react';
+import { Shield, Mic, Brain, Zap, Globe, Search, Database, Cloud } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Features = () => {
@@ -23,9 +23,10 @@ const Features = () => {
             description: t('features.voice_desc')
         },
         {
-            icon: Database,
-            title: t('features.privacy'),
-            description: t('features.privacy_desc')
+            icon: Cloud,
+            title: t('features.community_models'),
+            description: t('features.community_models_desc'),
+            isPremium: true
         },
         {
             icon: Zap,
