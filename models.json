@@ -28,5 +28,35 @@
     "isCustomResource": true,
     "supportsAdvancedTools": true,
     "isSmallModel": false
+  },
+  {
+    "id": "mellum_4b_sft",
+    "name": "Mellum 4B SFT",
+    "displayName": "Mellum 4B SFT (JetBrains)",
+    "pathName": "mellum-4b-sft-all-q4_k_m",
+    "pathExtension": "gguf",
+    "category": "Code | Completion",
+    "downloadUrlString": "https://huggingface.co/LLukas22/Mellum-4b-sft-all-Q4_K_M-GGUF/resolve/main/mellum-4b-sft-all-q4_k_m.gguf?download=true",
+    "thinkingMarkerEnd": null,
+    "temperature": 0.2,
+    "topK": 40,
+    "topP": 0.95,
+    "minRAMGB": 4.0,
+    "desktopOnly": false,
+    "maxContextTokens": 8192,
+    "decodeReserveTokens": 512,
+    "estimatedRuntimeMemoryBytes": 2800000000,
+    "downloadSizeDisplayString": "2.5 GB",
+    "repeatPenalty": 1.1,
+    "stopStrings": [
+      "<|end_of_text|>",
+      "###"
+    ],
+    "warningMessageKey": null,
+    "hasEmbeddedChatTemplate": true,
+    "isPremium": true,
+    "isCustomResource": true,
+    "supportsAdvancedTools": true,
+    "isSmallModel": true
   }
 ]
